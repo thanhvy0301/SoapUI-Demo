@@ -1,0 +1,644 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","HTTP Code","Execution Date"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_26_08"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_27_28"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_28_52"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_29_41"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_29_41"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_29_41"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_29_54"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_30_09"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_30_09"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_30_09"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_30_27"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_32_58"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_34_40"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_35_15"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_35_28"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_35_28"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_35_28"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_35_54"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_37_13"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_37_25"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_37_25"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_37_25"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_38_34"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_39_02"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_39_02"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_39_02"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_34"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_34"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_34"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_50"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_50"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_50"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_56"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_56"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_41_56"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_42_15"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_42_15"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_42_15"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_42_33"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_42_33"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_42_33"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_42_49"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_43_18"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_43_18"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_43_18"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_44_21"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_44_21"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_44_21"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",[Valid HTTP Status Codes] Response status code:418 is not in acceptable list of status codes
+Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_45_07"
+"Flow","Header Null","Groovy Script","groovy","FAILED",",java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_53_19"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_53_19"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 13_53_19"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 14_25_51"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 14_25_51"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 14_25_51"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 15_51_54"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 15_51_54"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","22-Jul-2024 15_51_54"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 11_13_52"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 11_13_52"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 11_13_52"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 11_42_21"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 11_42_21"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 11_42_21"
+"Flow","Header Null","Groovy Script","groovy","OK",","Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 14_58_17"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 14_58_17"
+"Flow","Header Null","CreateBooking","restrequest","FAILED",",Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'I' with an int value of 73
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+I'm a Teapot
+^
+"[HTTP/1.1 418 I'm a Teapot]","23-Jul-2024 14_58_17"
+"Flow","Header Null","Groovy Script","groovy","OK",",

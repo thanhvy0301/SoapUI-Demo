@@ -1,0 +1,51 @@
+Status: FAILED
+Time Taken: 246
+Size: 194
+Timestamp: Tue Jul 23 11:42:18 ICT 2024
+TestStep: CreateBooking
+
+----------------- Messages ------------------------------
+[Script Assertion] Assertion failed: Expected: 'bef', but got: '111'. Expression: false
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://restful-booker.herokuapp.com
+Method: POST
+StatusCode: 200
+URL: https://restful-booker.herokuapp.com/booking
+
+---------------- Request ---------------------------
+Accept: [application/json]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.5 (Java/16.0.2)]
+Host: [restful-booker.herokuapp.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [216]
+Content-Type: [application/json]
+
+POST https://restful-booker.herokuapp.com/booking HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Accept: application/json
+Content-Length: 216
+Host: restful-booker.herokuapp.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.2)
+
+
+
+---------------- Response --------------------------
+Server: [Cowboy]
+Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+Etag: [W/"c2-MTvBAiwKbqA71Jpdt1EZ3ENfKhA"]
+Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721709740&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=uXeTxmTvFm%2FUZb81oF6r%2FbsWUuevHZNHBCJTB%2F%2Bc3Qo%3D"}]}]
+Connection: [keep-alive]
+Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721709740&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=uXeTxmTvFm%2FUZb81oF6r%2FbsWUuevHZNHBCJTB%2F%2Bc3Qo%3D]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [194]
+Date: [Tue, 23 Jul 2024 04:42:20 GMT]
+X-Powered-By: [Express]
+Content-Type: [application/json; charset=utf-8]
+Via: [1.1 vegur]
+
+{"bookingid":444,"booking":{"firstname":"bef","lastname":"bef","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"Breakfast"}}

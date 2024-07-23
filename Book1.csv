@@ -1,0 +1,4 @@
+STT,FirstName,LastName,Checkin,Checkout,TotalPrice,UpdateName
+1,abc,Vy,12/01/2020,12/02/2020,NULL,Ivy
+2,cab,Ngoc,12/01/2021,12/02/2021,200,Vee
+3,bca,NULL,12/01/2021,12/02/2021,1000,VyDoan

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="0a8789cb-528f-437c-a7e3-92e526515cf3" activeEnvironment="Default" name="DemoSoapUI" resourceRoot="" soapui-version="5.7.2" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="TestSuite"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="Header Null"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="f7be2c69-6779-421b-8ba7-e26d1440460e" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restful-booker.herokuapp.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint></con:endpoints><con:resource name="" path="/auth" id="4ba298a4-38b9-4404-bea9-625e6270a860"><con:settings/><con:parameters><con:parameter><con:name>Content-Type</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Auth" id="0d87b103-09f7-4bbc-8855-d08e2835353f" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:auth="https://restful-booker.herokuapp.com/auth">auth:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="b1c08b60-5c49-4d7f-86c6-01f89e884e5b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Content-Type" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name=":id" path="/booking/${Properties#bookingid}" id="3bd69e3a-bff8-4f05-a16d-aa3e25488be2"><con:settings/><con:parameters><con:parameter><con:name>Accept</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Get_Booking" id="2925c590-4124-43c2-8b90-45f8ae209fc1" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="https://restful-booker.herokuapp.com/booking/220">ns:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404 418</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="4daca658-a5a8-4eec-9c16-45b0ae82503b" mediaType="application/json"><con:settings/><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Accept</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="booking" path="/booking" id="c2eecb51-1492-499d-a007-3c95cd35c87c"><con:settings/><con:parameters/><con:method name="Create_Booking" id="78a312ab-e2a5-449b-9eda-83196d304c57" method="POST"><con:settings/><con:parameters><con:parameter><con:name>Content-Type</con:name><con:value>application/json</con:value><con:style>HEADER</con:style><con:default>application/json</con:default></con:parameter><con:parameter><con:name>Accept</con:name><con:value>application/json</con:value><con:style>HEADER</con:style><con:default>application/json</con:default></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:book="https://restful-booker.herokuapp.com/booking">book:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>418 400 404 500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="415bfbcb-e678-44d0-8594-8f8546a88720" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:originalUri>https://restful-booker.herokuapp.com/booking</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry><con:entry>Accept</con:entry></con:parameterOrder></con:request></con:method><con:method name="Null Header" id="fb1d6b43-23bc-45c0-95f1-17379088dbe2" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>418</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:book="https://restful-booker.herokuapp.com/booking">book:Response</con:element></con:representation><con:request name="Request 1" id="227f271f-4a17-4358-9cbc-68946f40bea3" mediaType="application/json" postQueryString="false"><con:settings/><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="booking" path="/booking/${Properties#bookingid}" id="55f6fe66-47cc-4bcf-80cd-cfd0068c2a9e"><con:settings/><con:parameters><con:parameter><con:name>Content-Type</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Accept</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Cookie</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Update_Booking" id="ebdf9610-3cff-41af-8ec3-9a127597b5b0" method="PUT"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404 403</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:book="https://restful-booker.herokuapp.com/booking/">book:Response</con:element></con:representation><con:request name="Request 1" id="cd10b74b-d9b9-4c4b-b3f2-c8b7909f2441" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:originalUri>https://restful-booker.herokuapp.com/booking/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Cookie" value="${Properties#token}"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry><con:entry>Accept</con:entry><con:entry>Cookie</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="booking" path="/booking/${Properties#bookingid}" id="fb75efc0-4080-405e-8e1b-074760f8006f"><con:settings/><con:parameters><con:parameter><con:name>Content-Type</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Cookie</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Authorization</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="b1257d7c-5159-4609-8a44-a60352afac0a" method="DELETE"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404 405</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>201</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="63fd87c1-1daa-48a8-ad9f-669ac498406c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:originalUri>https://restful-booker.herokuapp.com/booking/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Cookie" value="${Properties#token}"/>
+  <con:entry key="Authorization" value="Basic YWRtaW46cGFzc3dvcmQxMjM="/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry><con:entry>Cookie</con:entry><con:entry>Authorization</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="732707bf-9297-4e57-8771-b2ce7513dddc" name="Flow"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="53533486-1c1e-47d7-8139-13b4874f25b2" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="groovy" name="Groovy Script" id="7f8215e5-3035-4509-b23d-b4f4e391f065"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import com.eviware.soapui.support.GroovyUtils
+
+def groovyUtils = new GroovyUtils(context)
+
+// Lấy đường dẫn của project SoapUI
+def proDir = groovyUtils.projectPath
+File file = new File(proDir)
+def firstLevelDir = file.getParent()
+
+def filePath = firstLevelDir + "\\Demo3\\Book2.csv" // Fixed path separator for cross-platform compatibility
+log.info "CSV File Path: " + filePath
+
+// Đọc file CSV
+def fileReader = new BufferedReader(new FileReader(filePath))
+def rows = fileReader.readLines()
+fileReader.close()
+
+for (int i = 1; i &lt; rows.size(); i++) {
+    def row = rows[i]
+    def data = row.split(",")
+
+    // Set giá trị từ CSV vào các properties của SoapUI
+    testRunner.testCase.testSteps["Properties"].setPropertyValue("firstName", data[1])
+    testRunner.testCase.testSteps["Properties"].setPropertyValue("lastName", data[2])
+    testRunner.testCase.testSteps["Properties"].setPropertyValue("updateFirstName", data[4])
+
+    // Thực thi bước thử nghiệm Auth
+    def authResult = testRunner.runTestStepByName("Auth")
+    try {
+        def resAuth = context.expand('${Auth#Response}')
+        def objAuth = new JsonSlurper().parseText(resAuth)
+        log.info "[Auth] Response: " + objAuth
+
+        def httpResAuth = context.testCase.testSteps["Auth"].testRequest.response
+        def stcodeAuth = httpResAuth.responseHeaders['#status#']
+        log.info "[Status Code][Auth]: " + stcodeAuth
+
+        def token = objAuth.token
+        testRunner.testCase.testSteps["Properties"].setPropertyValue("token", token.toString())
+        authResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.OK)
+    } catch (Exception e) {
+        log.error "[Auth] Exception: " + e.message
+        authResult.addMessage(e.message)
+        authResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.FAILED)
+    }
+
+    // Thực thi REST API CREATE BOOKING
+    def createResult = testRunner.runTestStepByName("CreateBooking")
+    try {
+        def resCreateBooking = context.expand('${CreateBooking#Response}')
+        def objCreateBooking = new JsonSlurper().parseText(resCreateBooking)
+        log.info "[CreateBooking] Response: " + objCreateBooking
+
+        def httpResCreateBooking = context.testCase.testSteps["CreateBooking"].testRequest.response
+        def sttCodeCreate = httpResCreateBooking.responseHeaders['#status#']
+        log.info "[Status Code][Create Booking]: " + sttCodeCreate
+
+        def bookingid = objCreateBooking.bookingid
+        testRunner.testCase.testSteps["Properties"].setPropertyValue("bookingid", bookingid.toString())
+    }catch(Exception e){    		
+            log.error(e)
+            createResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.FAILED)
+            createResult.addMessage(errorMessage)
+    }
+
+//    // Thực thi REST API GET BOOKING
+//    def getBookingResult = testRunner.runTestStepByName("GetBooking")
+//    try {
+//        def resGetBooking = context.expand('${GetBooking#Response}')
+//        log.info "[GetBooking] Response: " + resGetBooking
+//
+//        def httpResGetBooking = context.testCase.testSteps["GetBooking"].testRequest.response
+//        def stcodeGetBooking = httpResGetBooking.responseHeaders['#status#']
+//        log.info "[Status Code][Get Booking]: " + stcodeGetBooking
+//        getBookingResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.OK)
+//    } catch (Exception e) {
+//        log.error "[GetBooking] Exception: " + e.message
+//        getBookingResult.addMessage(e.message)
+//        getBookingResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.FAILED)
+//    }
+//
+//    // Thực thi REST API UPDATE BOOKING
+//    def updtBookingResult = testRunner.runTestStepByName("UpdateBooking")
+//    try {
+//        def resUpdtBooking = context.expand('${UpdateBooking#Response}')
+//        def objUpdtBooking = new JsonSlurper().parseText(resUpdtBooking)
+//        log.info "[UpdateBooking] Response: " + objUpdtBooking
+//
+//        def httpResUpdtBooking = context.testCase.testSteps["UpdateBooking"].testRequest.response
+//        def stcodeUpdtBooking = httpResUpdtBooking.responseHeaders['#status#']
+//        log.info "[Status Code][Update Booking]: " + stcodeUpdtBooking
+//        updtBookingResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.OK)
+//    } catch (Exception e) {
+//        log.error "[UpdateBooking] Exception: " + e.message
+//        updtBookingResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.FAILED)
+//        updtBookingResult.addMessage(e.message)
+//    }
+//
+//    // Thực thi REST API GET BOOKING (again)
+//    def getBookingResult1 = testRunner.runTestStepByName("GetBooking")
+//    try {
+//        def resGetBooking1 = context.expand('${GetBooking#Response}')
+//        log.info "[GetBooking] Response: " + resGetBooking1
+//
+//        def httpResGetBooking1 = context.testCase.testSteps["GetBooking"].testRequest.response
+//        def stcodeGetBooking1 = httpResGetBooking1.responseHeaders['#status#']
+//        log.info "[Status Code][Get Booking]: " + stcodeGetBooking1
+//        getBookingResult1.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.OK)
+//    } catch (Exception e) {
+//        log.error "[GetBooking] Exception: " + e.message
+//        getBookingResult1.addMessage(e.message)
+//        getBookingResult1.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.FAILED)
+//    }
+//
+//    // Thực thi REST API DELETE BOOKING
+//    def delBookingResult = testRunner.runTestStepByName("DeleteBooking")
+//    try {
+//        def httpResDelBooking = context.testCase.testSteps["DeleteBooking"].testRequest.response
+//        def stcodeDelBooking = httpResDelBooking.responseHeaders['#status#']
+//        log.info "[Status Code][Delete Booking]: " + stcodeDelBooking
+//        delBookingResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.OK)
+//    } catch (Exception e) {
+//        log.error "[DeleteBooking] Exception: " + e.message
+//        delBookingResult.addMessage(e.message)
+//        delBookingResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.FAILED)
+//    }
+}
+</script></con:config></con:testStep><con:testStep type="restrequest" name="Auth" id="2efa6eb1-386c-4e4f-8cba-8b8aed4417f3"><con:settings/><con:config service="https://restful-booker.herokuapp.com" resourcePath="/auth" methodName="Auth" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Auth" id="b1c08b60-5c49-4d7f-86c6-01f89e884e5b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request>{
+    "username" : "admin",
+    "password" : "password123"
+}</con:request><con:originalUri>https://restful-booker.herokuapp.com/auth</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="a2b6a4ce-9eca-4516-a63d-3308cb1252d9" name="Valid HTTP Status Codes"><con:configuration><codes>200
+</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Content-Type" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GetBooking" id="894b28f0-08ba-499f-9f98-3a27d6cd2e31" disabled="true"><con:settings/><con:config service="https://restful-booker.herokuapp.com" resourcePath="/booking/${Properties#bookingid}" methodName="Get_Booking" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetBooking" id="4daca658-a5a8-4eec-9c16-45b0ae82503b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:originalUri>https://restful-booker.herokuapp.com/booking/220</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Accept</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="CreateBooking" id="3fc819b0-8239-4e72-9750-c7359542c289"><con:settings/><con:config service="https://restful-booker.herokuapp.com" resourcePath="/booking" methodName="Create_Booking" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="CreateBooking" id="415bfbcb-e678-44d0-8594-8f8546a88720" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request>{
+    "firstname" : "${Properties#firstName}",
+    "lastname" : "${Properties#lastName}",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "${Properties#checkin}",
+        "checkout" : "${Properties#checkout}"
+    },
+    "additionalneeds" : "Breakfast"
+}</con:request><con:originalUri>https://restful-booker.herokuapp.com/booking</con:originalUri><con:assertion type="GroovyScriptAssertion" id="52ec200d-3c4d-4905-a75b-9fcd59771e7a" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper
+
+def resCreateBooking = context.expand('${CreateBooking#Response}')
+def objCreateBooking = new JsonSlurper().parseText(resCreateBooking)
+
+// Assertion
+def resLastName = context.expand('${Properties#lastName}')
+def actLastName = objCreateBooking.booking.totalprice
+
+if (resLastName == actLastName) {
+    log.info("Assertion passed: Expected: '$resLastName', Actual: '$actLastName'")
+} else {
+    def errorMessage = "Assertion failed: Expected: '$resLastName', but got: '$actLastName'"
+    log.error(errorMessage)
+    // This will fail the assertion and mark the test step as failed
+    assert false : errorMessage
+}
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry><con:entry>Accept</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="UpdateBooking" id="f9e7fe5c-0fc9-4349-b946-22cb4de41141" disabled="true"><con:settings/><con:config service="https://restful-booker.herokuapp.com" resourcePath="/booking/${Properties#bookingid}" methodName="Update_Booking" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="UpdateBooking" id="cd10b74b-d9b9-4c4b-b3f2-c8b7909f2441" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request>{
+    "firstname" : "${Properties#updateFirstName}",
+    "lastname" : "${Properties#updateLastName}",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "${Properties#checkin}",
+        "checkout" : "${Properties#checkout}"
+    },
+    "additionalneeds" : "Breakfast"
+}</con:request><con:originalUri>https://restful-booker.herokuapp.com/booking/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Cookie" value="token=${Properties#token}"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry><con:entry>Accept</con:entry><con:entry>Cookie</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="c670185d-9a77-477b-ba69-c06463095a2d" disabled="true"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>firstName</con:name><con:value>ssds</con:value></con:property><con:property><con:name>lastName</con:name><con:value>ssds</con:value></con:property><con:property><con:name>bookingid</con:name><con:value>5196</con:value></con:property><con:property><con:name>token</con:name><con:value>a79b0b07c6372ba</con:value></con:property><con:property><con:name>updateFirstName</con:name><con:value>IamVy</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="DeleteBooking" id="c751dc1a-da04-4feb-aa8d-be78f03fb13a" disabled="true"><con:settings/><con:config service="https://restful-booker.herokuapp.com" resourcePath="/booking/${Properties#bookingid}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="DeleteBooking" id="63fd87c1-1daa-48a8-ad9f-669ac498406c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request/><con:originalUri>https://restful-booker.herokuapp.com/booking/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Cookie" value="${Properties#token}"/>
+  <con:entry key="Authorization" value="Basic YWRtaW46cGFzc3dvcmQxMjM="/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Content-Type</con:entry><con:entry>Cookie</con:entry><con:entry>Authorization</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:loadTest id="e1169940-6784-4b0b-81a1-1384553d7783" name="Simple"><con:settings/><con:threadCount>300</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>20</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type><con:config><testDelay>1000</testDelay><randomFactor>0.5</randomFactor></con:config></con:loadStrategy><con:assertion type="Step Maximum" name="Step Maximum"><con:configuration><name>Step Maximum</name><min-requests>5</min-requests><max-value>300</max-value><test-step>CreateBooking</test-step><max-errors>1000</max-errors></con:configuration></con:assertion><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:tearDownScript>import com.eviware.soapui.support.GroovyUtils
+
+try {
+    // Lấy đường dẫn của project SoapUI
+    def groovyUtils = new GroovyUtils(context)
+    def projectPath = groovyUtils.projectPath
+
+    // Tạo thư mục "SoapUIResults" trong thư mục dự án nếu chưa tồn tại
+    String resultFolderPath = projectPath
+    File resultFolder = new File(resultFolderPath)
+    if (!resultFolder.exists()) {
+        resultFolder.mkdirs()
+    }
+
+    // Lấy ngày giờ thực thi để tạo thư mục con có timestamp
+    Date d = new Date()
+    def executionDate = d.format("dd-MMM-yyyy HH_mm_ss")
+    String subfolderPath = resultFolderPath + "/Report"
+    new File(subfolderPath).mkdirs()
+	def testSuite = testRunner.testCase.testSuite.name
+    def testCaseName = testRunner.testCase.name
+	
+    // Tạo file báo cáo CSV trong thư mục con
+    def reportFilePath = subfolderPath + "/Report_" +testSuite+"_"+testCaseName + ".csv"
+    def reportFile = new File(reportFilePath)
+    if (!reportFile.exists()) {
+        reportFile.createNewFile()
+        reportFile.write('"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","HTTP Code","Execution Date"\n')
+    }
+
+    // Lặp qua các kết quả của các bước thử nghiệm
+    for (stepResult in testRunner.getResults()) {
+//        def testSuite = testRunner.testCase.testSuite.name
+        def testCase = testRunner.testCase.name
+        def testStep = stepResult.getTestStep()
+        def testStepName = testStep.name
+        def type = testStep.config.type
+        def status = stepResult.getStatus()
+
+        // Ghi thông tin vào file CSV
+        reportFile.append('"' + testSuite + '",')
+        reportFile.append('"' + testCase + '",')
+        reportFile.append('"' + testStepName + '",')
+        reportFile.append('"' + type + '",')
+        reportFile.append('"' + status + '",')
+        
+
+        // Lấy các thông điệp kết quả của bước thử nghiệm
+        reportFile.append('"')
+        for (resMessage in stepResult.getMessages()) {
+            // Ghi các thông điệp và phân tách các thông điệp khác nhau bằng dòng mới
+            reportFile.append(resMessage + '\n')
+        }
+
+		reportFile.append('",')        
+        // Ghi mã HTTP (nếu có)
+        def httpCode = stepResult.getTestStep().testRequest?.response?.responseHeaders['#status#']
+        reportFile.append('"' + (httpCode ?: 'N/A') + '",')
+        
+        // Ghi ngày thực thi vào file
+        reportFile.append('"' + executionDate + '"\n')
+    }
+} catch (Exception e) {
+    log.error("Exception occurred: " + e.toString())
+}
+</con:tearDownScript><con:properties/><con:securityTest id="61d3f80d-e1c5-4796-84d9-bc2455b91a37" name="SecurityTest 1" failOnError="true"><con:settings/><con:testStepSecurityTest><con:testStepId>3fc819b0-8239-4e72-9750-c7359542c289</con:testStepId><con:testStepSecurityScan type="SQLInjectionScan" name="SQL Injection" id="0427e09b-50d2-41d1-aacd-a2aab5438bd8" applyForFailedStep="false" disabled="true" runOnlyOnce="true"><con:settings/><con:config xsi:type="con:SQLInjectionScan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:sqlInjectionStrings>' or '1'='1</con:sqlInjectionStrings><con:sqlInjectionStrings>'--</con:sqlInjectionStrings><con:sqlInjectionStrings>1'</con:sqlInjectionStrings><con:sqlInjectionStrings>admin'--</con:sqlInjectionStrings><con:sqlInjectionStrings>/*!10000%201/0%20*/</con:sqlInjectionStrings><con:sqlInjectionStrings>/*!10000 1/0 */</con:sqlInjectionStrings><con:sqlInjectionStrings>1/0</con:sqlInjectionStrings><con:sqlInjectionStrings>'%20o/**/r%201/0%20--</con:sqlInjectionStrings><con:sqlInjectionStrings>' o/**/r 1/0 --</con:sqlInjectionStrings><con:sqlInjectionStrings>;</con:sqlInjectionStrings><con:sqlInjectionStrings>'%20and%201=2%20--</con:sqlInjectionStrings><con:sqlInjectionStrings>' and 1=2 --</con:sqlInjectionStrings><con:sqlInjectionStrings>test�%20UNION%20select%201,%20@@version,%201,%201;�</con:sqlInjectionStrings><con:sqlInjectionStrings>test� UNION select 1, @@version, 1, 1;�</con:sqlInjectionStrings></con:config><con:assertion type="Valid HTTP Status Codes" id="dbed4c01-1f6f-4a7b-9253-345fa636abe4" name="Valid HTTP Status Codes"><con:configuration><codes>200
+</codes></con:configuration></con:assertion><con:testStep xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><con:checkedParameters xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:parameters label="totalprice" parameterName="Request" xpath=".totalprice" checked="true"/></con:checkedParameters><con:executionStrategy xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:strategy>ONE_BY_ONE</con:strategy><con:delay>100</con:delay></con:executionStrategy></con:testStepSecurityScan></con:testStepSecurityTest><con:testStepSecurityTest><con:testStepId>2efa6eb1-386c-4e4f-8cba-8b8aed4417f3</con:testStepId><con:testStepSecurityScan type="SQLInjectionScan" name="SQL Injection" id="44c0b2cf-1ccb-49ea-aea7-47323efb7ed9" applyForFailedStep="false" disabled="false" runOnlyOnce="true"><con:settings/><con:config xsi:type="con:SQLInjectionScan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:sqlInjectionStrings>' or '1'='1</con:sqlInjectionStrings><con:sqlInjectionStrings>'--</con:sqlInjectionStrings><con:sqlInjectionStrings>1'</con:sqlInjectionStrings><con:sqlInjectionStrings>admin'--</con:sqlInjectionStrings><con:sqlInjectionStrings>/*!10000%201/0%20*/</con:sqlInjectionStrings><con:sqlInjectionStrings>/*!10000 1/0 */</con:sqlInjectionStrings><con:sqlInjectionStrings>1/0</con:sqlInjectionStrings><con:sqlInjectionStrings>'%20o/**/r%201/0%20--</con:sqlInjectionStrings><con:sqlInjectionStrings>' o/**/r 1/0 --</con:sqlInjectionStrings><con:sqlInjectionStrings>;</con:sqlInjectionStrings><con:sqlInjectionStrings>'%20and%201=2%20--</con:sqlInjectionStrings><con:sqlInjectionStrings>' and 1=2 --</con:sqlInjectionStrings><con:sqlInjectionStrings>test�%20UNION%20select%201,%20@@version,%201,%201;�</con:sqlInjectionStrings><con:sqlInjectionStrings>test� UNION select 1, @@version, 1, 1;�</con:sqlInjectionStrings><con:sqlInjectionStrings>password123</con:sqlInjectionStrings></con:config><con:assertion type="JsonPath Match" id="ab596963-731f-4652-96b5-d3377a13364e" name="JsonPath Match"><con:configuration><path/><content/><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:testStep xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><con:checkedParameters xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:parameters label="password" parameterName="Request" xpath="" checked="true"/></con:checkedParameters><con:executionStrategy xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:strategy>ONE_BY_ONE</con:strategy><con:delay>100</con:delay></con:executionStrategy></con:testStepSecurityScan></con:testStepSecurityTest><con:properties/></con:securityTest></con:testCase><con:testCase id="48b5630b-7bbb-4571-a709-8ed5b71b46b2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Header Null" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script" id="cb1d3626-7590-4cac-84f2-7880ee976145"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import com.eviware.soapui.support.GroovyUtils
+
+def groovyUtils = new GroovyUtils(context)
+
+// Lấy đường dẫn của project SoapUI
+def proDir = groovyUtils.projectPath
+File file = new File(proDir)
+def firstLevelDir = file.getParent()
+
+def filePath = firstLevelDir + "Demo3\\Null.csv"
+log.info filePath
+
+// Đọc file CSV
+def fileReader = new BufferedReader(new FileReader(filePath))
+def rows = fileReader.readLines()
+log.info fileReader
+fileReader.close()
+
+for (int i = 1; i &lt; rows.size(); i++) {
+    def row = rows[i]
+    def data = row.split(",")
+
+    // Set giá trị từ CSV vào các properties của SoapUI
+    testRunner.testCase.testSteps["Properties"].setPropertyValue("firstName", data[1])
+    testRunner.testCase.testSteps["Properties"].setPropertyValue("lastName", data[2])    
+    // Thực thi REST API CREATE BOOKING
+    def createResult = testRunner.runTestStepByName("CreateBooking")
+    try {
+        // Lấy response từ Step1 và parse thành JSON
+        def resCreateBooking = context.expand('${CreateBooking#Response}')
+        def objCreateBooking = new JsonSlurper().parseText(resCreateBooking)
+        log.info("[CreateBooking] Response: " + objCreateBooking)
+
+        // Lấy HttpResponse từ context của bước thử nghiệm CreateBooking
+        def httpResCreateBooking = context.testCase.testSteps["CreateBooking"].testRequest.response
+
+        // Lấy giá trị status từ header
+        def sttCodeCreate = httpResCreateBooking.responseHeaders['#status#']
+        log.info "[Status Code][Create Booking]: " + sttCodeCreate
+    }catch(Exception e){
+    		log.error("[CreateBooking] Exception: " + e.message)
+    		createResult.addMessage(e.message)
+	     def httpResCreateBooking = context.testCase.testSteps["CreateBooking"].testRequest.response
+	     def sttCodeCreate = httpResCreateBooking.responseHeaders['#status#']
+	     log.info "[Status Code][Create Booking]: " + sttCodeCreate
+        	createResult.setStatus(com.eviware.soapui.model.testsuite.TestStepResult.TestStepStatus.FAILED)
+    }
+}</script></con:config></con:testStep><con:testStep type="restrequest" name="CreateBooking" id="9c6a1d69-0e03-4b5d-a662-85739e1251ae"><con:settings/><con:config service="https://restful-booker.herokuapp.com" resourcePath="/booking" methodName="Null Header" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="CreateBooking" id="415bfbcb-e678-44d0-8594-8f8546a88720" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restful-booker.herokuapp.com</con:endpoint><con:request>{
+    "firstname" : "123",
+    "lastname" : "${Properties#lastName}",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "${Properties#checkin}",
+        "checkout" : "${Properties#checkout}"
+    },
+    "additionalneeds" : "Breakfast"
+}</con:request><con:originalUri>https://restful-booker.herokuapp.com/booking</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="74a63e23-a6e5-44e3-b20a-d5bf588dbff8" name="Valid HTTP Status Codes"><con:configuration><codes>418
+</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Content-Type" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="f20b34d9-6c54-4f4a-831a-5ff26ce30333"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>firstName</con:name><con:value/></con:property><con:property><con:name>lastName</con:name><con:value>ssds</con:value></con:property><con:property><con:name>updateFirstName</con:name><con:value>IamVy</con:value></con:property><con:property><con:name>bookingid</con:name><con:value>3163</con:value></con:property><con:property><con:name>token</con:name><con:value>00414ee60e7d1ba</con:value></con:property></con:properties></con:config></con:testStep><con:loadTest id="6f0869da-2c35-421d-be97-58749a335e35" name="LoadTest 1"><con:settings/><con:threadCount>100</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Variance</con:type><con:config><interval>5000</interval><variance>0.7</variance></con:config></con:loadStrategy><con:assertion type="Step Average" name="Step Average"><con:configuration><name>Step Average</name><min-requests>1</min-requests><max-average>280</max-average><test-step>CreateBooking</test-step><max-errors>1000</max-errors><sample-interval>1</sample-interval></con:configuration></con:assertion><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:tearDownScript>import com.eviware.soapui.support.GroovyUtils
+
+try {
+    // Lấy đường dẫn của project SoapUI
+    def groovyUtils = new GroovyUtils(context)
+    def projectPath = groovyUtils.projectPath
+
+    // Tạo thư mục "SoapUIResults" trong thư mục dự án nếu chưa tồn tại
+    String resultFolderPath = projectPath
+    File resultFolder = new File(resultFolderPath)
+    if (!resultFolder.exists()) {
+        resultFolder.mkdirs()
+    }
+
+    // Lấy ngày giờ thực thi để tạo thư mục con có timestamp
+    Date d = new Date()
+    def executionDate = d.format("dd-MMM-yyyy HH_mm_ss")
+    String subfolderPath = resultFolderPath + "/Report"
+    new File(subfolderPath).mkdirs()
+	def testSuite = testRunner.testCase.testSuite.name
+    def testCaseName = testRunner.testCase.name
+	
+    // Tạo file báo cáo CSV trong thư mục con
+    def reportFilePath = subfolderPath + "/Report_" +testSuite+"_"+testCaseName + ".csv"
+    def reportFile = new File(reportFilePath)
+    if (!reportFile.exists()) {
+        reportFile.createNewFile()
+        reportFile.write('"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","HTTP Code","Execution Date"\n')
+    }
+
+    // Lặp qua các kết quả của các bước thử nghiệm
+    for (stepResult in testRunner.getResults()) {
+//        def testSuite = testRunner.testCase.testSuite.name
+        def testCase = testRunner.testCase.name
+        def testStep = stepResult.getTestStep()
+        def testStepName = testStep.name
+        def type = testStep.config.type
+        def status = stepResult.getStatus()
+
+        // Ghi thông tin vào file CSV
+        reportFile.append('"' + testSuite + '",')
+        reportFile.append('"' + testCase + '",')
+        reportFile.append('"' + testStepName + '",')
+        reportFile.append('"' + type + '",')
+        reportFile.append('"' + status + '",')
+        
+        // Lấy các thông điệp kết quả của bước thử nghiệm
+        reportFile.append('",')
+        for (resMessage in stepResult.getMessages()) {
+            // Ghi các thông điệp và phân tách các thông điệp khác nhau bằng dòng mới
+            reportFile.append(resMessage + '\n')
+        } 
+        // Ghi mã HTTP (nếu có)
+        def httpCode = stepResult.getTestStep().testRequest?.response?.responseHeaders['#status#']
+        reportFile.append('"' + httpCode + '",')
+        
+        // Ghi ngày thực thi vào file
+        reportFile.append('"' + executionDate + '"\n')
+    }
+} catch (Exception e) {
+    log.error("Exception occurred: " + e.toString())
+}
+</con:tearDownScript><con:properties/><con:securityTest id="eb216a8a-c169-445f-ad62-6a6c4c0409c2" name="SecurityTest 1" failOnError="true"><con:settings/><con:testStepSecurityTest><con:testStepId>9c6a1d69-0e03-4b5d-a662-85739e1251ae</con:testStepId><con:testStepSecurityScan type="InvalidTypesSecurityScan" name="Invalid Types" id="ac4ab1df-e24b-4d4e-8897-a6fade56847e" applyForFailedStep="false" disabled="false" runOnlyOnce="true"><con:settings/><con:config xsi:type="con:InvalidSecurityScan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:typesList><con:type>3</con:type><con:value>true</con:value></con:typesList><con:typesList><con:type>4</con:type><con:value>GpM7</con:value></con:typesList><con:typesList><con:type>5</con:type><con:value>0FB7</con:value></con:typesList><con:typesList><con:type>9</con:type><con:value>-1E4f</con:value></con:typesList><con:typesList><con:type>10</con:type><con:value>12.45E+12</con:value></con:typesList><con:typesList><con:type>11</con:type><con:value>-1.23</con:value></con:typesList><con:typesList><con:type>12</con:type><con:value>SoapUI is	 the&#13; best
+</con:value></con:typesList><con:typesList><con:type>13</con:type><con:value>P1Y2M3DT10H30M12.3S</con:value></con:typesList><con:typesList><con:type>14</con:type><con:value>1999-05-31T13:20:00.000-05:00</con:value></con:typesList><con:typesList><con:type>16</con:type><con:value>1999-05-31</con:value></con:typesList><con:typesList><con:type>22</con:type><con:value>-1267896799</con:value></con:typesList><con:typesList><con:type>23</con:type><con:value>-882223334991111111</con:value></con:typesList><con:typesList><con:type>24</con:type><con:value>-2147483647</con:value></con:typesList><con:typesList><con:type>25</con:type><con:value>-32768</con:value></con:typesList><con:typesList><con:type>26</con:type><con:value>127</con:value></con:typesList><con:typesList><con:type>27</con:type><con:value>0</con:value></con:typesList><con:typesList><con:type>28</con:type><con:value>-1</con:value></con:typesList><con:typesList><con:type>29</con:type><con:value>1</con:value></con:typesList><con:typesList><con:type>30</con:type><con:value>1267896799</con:value></con:typesList><con:typesList><con:type>31</con:type><con:value>882223334991111111</con:value></con:typesList><con:typesList><con:type>32</con:type><con:value>294967295</con:value></con:typesList><con:typesList><con:type>33</con:type><con:value>65535</con:value></con:typesList><con:typesList><con:type>34</con:type><con:value>255</con:value></con:typesList><con:typesList><con:type>35</con:type><con:value>SoapUI is the best</con:value></con:typesList><con:typesList><con:type>36</con:type><con:value>SoapUI is the best</con:value></con:typesList></con:config><con:testStep xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><con:checkedParameters xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:parameters label="abc" parameterName="Request" xpath=".firstname" checked="true"/></con:checkedParameters><con:executionStrategy xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:strategy>ONE_BY_ONE</con:strategy><con:delay>100</con:delay></con:executionStrategy></con:testStepSecurityScan></con:testStepSecurityTest><con:properties/></con:securityTest></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
