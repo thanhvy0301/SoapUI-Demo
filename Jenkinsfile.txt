@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/thanhvy0301/SoapUI-Demo.git']]])
+            }
+        }
+
+        stage('Run SoapUI Tests') {
+            steps {
+                bat '"C:\\Program Files\\SmartBear\\SoapUI-5.7.2\\bin\\testrunner.bat" -r -a -j -f "G:\\Demo3\\JenskinReport" "G:\\Demo3\\DemoSoapUI"'
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'G:\\Demo3\\JenskinReport\\**', allowEmptyArchive: true
+        }
+    }
+}
