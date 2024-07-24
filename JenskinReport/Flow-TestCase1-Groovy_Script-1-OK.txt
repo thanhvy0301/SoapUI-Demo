@@ -1,7 +1,7 @@
 Status: OK
 Time Taken: 249
 Size: 195
-Timestamp: Wed Jul 24 09:13:51 ICT 2024
+Timestamp: Wed Jul 24 11:18:00 ICT 2024
 TestStep: CreateBooking
 
 ----------------- Messages ------------------------------
@@ -36,15 +36,15 @@ User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.2)
 ---------------- Response --------------------------
 Server: [Cowboy]
 Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
-Etag: [W/"c3-MRsyZh4bWqKk3B7G4Y5QhveKOmQ"]
-Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721787231&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=pBRveIjMqGcTOh4CJRkY2HDms5fDasMm8jxxQwvrfb0%3D"}]}]
+Etag: [W/"c3-KUa1908sqPkvniR90juAg4RuoR0"]
+Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721794681&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=79UDONped%2B0BJUvr3%2BzMwkFHuL%2BQvHW6fLw9Qr%2FvYfg%3D"}]}]
 Connection: [keep-alive]
-Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721787231&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=pBRveIjMqGcTOh4CJRkY2HDms5fDasMm8jxxQwvrfb0%3D]
+Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721794681&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=79UDONped%2B0BJUvr3%2BzMwkFHuL%2BQvHW6fLw9Qr%2FvYfg%3D]
 #status#: [HTTP/1.1 200 OK]
 Content-Length: [195]
-Date: [Wed, 24 Jul 2024 02:13:51 GMT]
+Date: [Wed, 24 Jul 2024 04:18:01 GMT]
 X-Powered-By: [Express]
 Content-Type: [application/json; charset=utf-8]
 Via: [1.1 vegur]
 
-{"bookingid":1314,"booking":{"firstname":"bef","lastname":"bef","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"Breakfast"}}
+{"bookingid":3278,"booking":{"firstname":"bef","lastname":"bef","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"Breakfast"}}
