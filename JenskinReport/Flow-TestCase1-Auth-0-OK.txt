@@ -1,0 +1,48 @@
+Status: OK
+Time Taken: 240
+Size: 27
+Timestamp: Wed Jul 24 09:10:36 ICT 2024
+TestStep: Auth
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://restful-booker.herokuapp.com
+Method: POST
+StatusCode: 200
+URL: https://restful-booker.herokuapp.com/auth
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.5 (Java/16.0.2)]
+Host: [restful-booker.herokuapp.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [60]
+Content-Type: [application/json]
+
+POST https://restful-booker.herokuapp.com/auth HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 60
+Host: restful-booker.herokuapp.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.2)
+
+
+
+---------------- Response --------------------------
+Server: [Cowboy]
+Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+Etag: [W/"1b-envVuTPD1Mk+ZCMXtR9HMQYq1Go"]
+Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721787036&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=NQljF4WgW2BSR4JJ5W4GHXNzYU6ZNk6eLAU10bn75Qs%3D"}]}]
+Connection: [keep-alive]
+Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721787036&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=NQljF4WgW2BSR4JJ5W4GHXNzYU6ZNk6eLAU10bn75Qs%3D]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [27]
+Date: [Wed, 24 Jul 2024 02:10:36 GMT]
+X-Powered-By: [Express]
+Content-Type: [application/json; charset=utf-8]
+Via: [1.1 vegur]
+
+{"token":"1e905976487f056"}
