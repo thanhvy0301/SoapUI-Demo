@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 305
+Size: 0
+Timestamp: Thu Jul 25 16:23:52 ICT 2024
+TestStep: Groovy Script
+Error:java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+
+----------------- Messages ------------------------------
+java.lang.NullPointerException: Cannot invoke method addMessage() on null object
+error at line: 43
