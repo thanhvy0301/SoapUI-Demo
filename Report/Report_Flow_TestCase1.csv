@@ -21,4 +21,10 @@
 "Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 13_44_24"
 "Flow","TestCase1","CreateBooking","restrequest","FAILED","[Script Assertion] Assertion failed: Expected: 'bef', but got: '111'. Expression: false
 ","[HTTP/1.1 200 OK]","26-Jul-2024 13_44_24"
+"Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 13_53_10"
+"Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 13_53_10"
+"Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 13_53_13"
+"Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 13_53_13"
+"Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 13_54_24"
+"Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 13_54_24"
 "Flow","TestCase1","Groovy Script","groovy","OK","",
