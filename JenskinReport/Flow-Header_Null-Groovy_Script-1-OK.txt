@@ -1,7 +1,7 @@
 Status: OK
-Time Taken: 249
+Time Taken: 250
 Size: 12
-Timestamp: Fri Jul 26 13:10:34 ICT 2024
+Timestamp: Fri Jul 26 13:44:24 ICT 2024
 TestStep: CreateBooking
 
 ----------------- Messages ------------------------------
@@ -35,12 +35,12 @@ User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.2)
 Server: [Cowboy]
 Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
 Etag: [W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"]
-Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721974235&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=I95ChWqF%2Bgcu6wYr04eOhRDV9Eyu6HRRaEsU3hwgoDc%3D"}]}]
+Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721976266&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=cjUu%2FPpAmuLYEHya8UumZykIH4auKgrOohp8Sctcgyg%3D"}]}]
 Connection: [keep-alive]
-Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721974235&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=I95ChWqF%2Bgcu6wYr04eOhRDV9Eyu6HRRaEsU3hwgoDc%3D]
+Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721976266&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=cjUu%2FPpAmuLYEHya8UumZykIH4auKgrOohp8Sctcgyg%3D]
 #status#: [HTTP/1.1 418 I'm a Teapot]
 Content-Length: [12]
-Date: [Fri, 26 Jul 2024 06:10:35 GMT]
+Date: [Fri, 26 Jul 2024 06:44:26 GMT]
 X-Powered-By: [Express]
 Content-Type: [text/plain; charset=utf-8]
 Via: [1.1 vegur]
