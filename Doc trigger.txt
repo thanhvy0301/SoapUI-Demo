@@ -1,0 +1,20 @@
+Cấu hình Jenkins
+	1. Tạo project freestyle
+	2. General: Nhập url Github (GitHub project)
+	3. Source Code Management: Chọn Git  > Nhập url repo 
+	4. Build Triggers: Chọn GitHub hook trigger for GITScm polling
+	5. Build Steps: Nhập "C:\Program Files\SmartBear\SoapUI-5.7.2\bin\testrunner.bat" -r -a -j -f G:\Demo3\JenskinReport G:\Demo3\DemoSoapUI (Run soap ui)
+* jenkins nếu chạy ở local 8080 nên buộc phải có thêm 1 host ảo (ngrok)
+Cài đặt ngrok
+	1. Đăng ký ngrok > Lấy token
+	2. authen token ở cmd: ngrok config add-authtoken $YOUR_AUTHTOKEN
+	3. Nhập ngrok http 8080 ở cmd
+	4. Copy url fowading
+
+Cấu hình ở github
+	1. Chọn repo > Setting
+	2. Chọn Webhook > add webhook
+	3. Nhập Payload URL: <url fowarding>/github-webhook/
+	4. Content type: Chọn application/json
+	5. Add webhook
+
