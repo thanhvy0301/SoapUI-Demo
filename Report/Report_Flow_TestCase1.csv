@@ -13464,4 +13464,10 @@
 "Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","25-Jul-2024 16_23_52"
 "Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","25-Jul-2024 16_24_13"
 "Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","25-Jul-2024 16_24_13"
+"Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","25-Jul-2024 16_25_27"
+"Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","25-Jul-2024 16_25_27"
+"Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 09_45_37"
+"Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 09_45_37"
+"Flow","TestCase1","Groovy Script","groovy","OK","","Flow","TestCase1","Auth","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 09_54_15"
+"Flow","TestCase1","CreateBooking","restrequest","OK","","[HTTP/1.1 200 OK]","26-Jul-2024 09_54_15"
 "Flow","TestCase1","Groovy Script","groovy","OK","",

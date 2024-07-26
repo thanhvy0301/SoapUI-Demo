@@ -1,7 +1,7 @@
 Status: OK
-Time Taken: 1122
+Time Taken: 1180
 Size: 27
-Timestamp: Thu Jul 25 16:23:50 ICT 2024
+Timestamp: Fri Jul 26 09:54:13 ICT 2024
 TestStep: Auth
 
 ----------------- Messages ------------------------------
@@ -34,15 +34,15 @@ User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.2)
 ---------------- Response --------------------------
 Server: [Cowboy]
 Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
-Etag: [W/"1b-2TCAt0b0QufNjuID4YBQXjgbNBI"]
-Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721899432&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=sDE45ppG1ZDt30tPrGhVrXo4O5MXYHK02kbXOlVSLMU%3D"}]}]
+Etag: [W/"1b-OAZSwADgwJwg2hAb0hrfV1fHu2A"]
+Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1721962455&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=mbYa2zCWh2eOSPeTXINH0hJxcqTJX7p0b59czC%2FhnC4%3D"}]}]
 Connection: [keep-alive]
-Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721899432&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=sDE45ppG1ZDt30tPrGhVrXo4O5MXYHK02kbXOlVSLMU%3D]
+Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1721962455&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=mbYa2zCWh2eOSPeTXINH0hJxcqTJX7p0b59czC%2FhnC4%3D]
 #status#: [HTTP/1.1 200 OK]
 Content-Length: [27]
-Date: [Thu, 25 Jul 2024 09:23:52 GMT]
+Date: [Fri, 26 Jul 2024 02:54:15 GMT]
 X-Powered-By: [Express]
 Content-Type: [application/json; charset=utf-8]
 Via: [1.1 vegur]
 
-{"token":"b2dcdee2a037400"}
+{"token":"2694cb09f34ac3f"}

@@ -190,7 +190,7 @@ def objCreateBooking = new JsonSlurper().parseText(resCreateBooking)
 
 // Assertion
 def resLastName = context.expand('${Properties#lastName}')
-def actLastName = objCreateBooking.booking.lastname
+def actLastName = objCreateBooking.booking.totalprice
 
 if (resLastName == actLastName) {
     log.info("Assertion passed: Expected: '$resLastName', Actual: '$actLastName'")
